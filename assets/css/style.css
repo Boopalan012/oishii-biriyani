@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgb(0 0 0 / 67%);
+  background: rgb(0 0 0 / 72%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 110px;
+  padding-top: 0px !important;
 }
 
 @media (max-width: 992px) {
