@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgb(0 0 0 / 72%);
+  background: rgb(0 0 0 / 53%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -610,8 +610,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 38px;
+    line-height: 55px;
   }
   #hero h2 {
     font-size: 18px;
@@ -920,10 +920,11 @@ section {
 }
 
 .menu .menu-img {
-  width: 70px;
-  border-radius: 50%;
+  width: 100px;
+  border-radius: 5%;
   float: left;
-  border: 5px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  margin: 0px 25px 0px 0px;
 }
 
 .menu .menu-content {
